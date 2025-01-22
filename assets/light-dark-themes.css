@@ -4,6 +4,7 @@
   --font-color: #424242;
   --bg-color: #fff;
   --heading-color: #292922;
+  --text-color-dark-light-mode:var(--font-color);
 }
 
 [data-theme=dark] {
@@ -12,6 +13,7 @@
   --font-color: #e1e1ff;
   --bg-color: #161625;
   --heading-color: #818cab;
+  --text-color-dark-light-mode: #fafafa;
 }
 [data-theme=dark] .navbar .navbar-brand {
   --bs-navbar-brand-color:#e1e1ff;
@@ -29,4 +31,8 @@ body {
 
 .theme-switch input {
   visibility: hidden;
+}
+
+.text-dark-light-mode {
+  color: var(--text-color-dark-light-mode);
 }/*# sourceMappingURL=light-dark-themes.css.map */
