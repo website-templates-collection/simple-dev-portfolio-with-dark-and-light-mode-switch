@@ -41,4 +41,12 @@
 
 .project-card-7 {
   background-image: url("./images/projects/Red-Sun.png");
+}
+
+.social-icon-text {
+  font-size: 0.95rem !important;
+}
+
+.theme-switch-btn {
+  height: 2rem !important;
 }/*# sourceMappingURL=custom.css.map */
