@@ -23,6 +23,9 @@
         --bs-navbar-color:#e1e1ff;
         --bs-navbar-hover-color:#e1e1ff;
     }
+    .navbar-toggler{
+        --toggler-color:#fff !important;
+    }
 }
 
 body{

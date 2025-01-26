@@ -23,6 +23,9 @@
   --bs-navbar-color:#e1e1ff;
   --bs-navbar-hover-color:#e1e1ff;
 }
+[data-theme=dark] .navbar-toggler {
+  --toggler-color:#fff !important;
+}
 
 body {
   background-color: var(--bg-color) !important;
