@@ -17,6 +17,14 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">DR.</a>
+          <div class="d-flex">
+            <div class="theme-switch-wrapper mt-1 d-lg-none">
+              <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <img src="./assets/icons/sun-fill-dark.svg" class="sun-fill-dark theme-switch-btn" alt="">
+                  <img src="./assets/icons/sun-fill-light.svg" class="sun-fill-light theme-switch-btn" alt="">
+              </label>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <!-- <span class="navbar-toggler-icon"></span> -->
             <div href="#" class="navbar-toggler-toggle d-lg-none">
@@ -26,6 +34,8 @@
               <span></span>
             </div>
           </button>
+          </div>
+
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -37,7 +47,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
-              <li>
+              <li class="d-none d-lg-block">
                 <div class="theme-switch-wrapper mt-1">
                   <label class="theme-switch" for="checkbox">
                       <input type="checkbox" id="checkbox" />
